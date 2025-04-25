@@ -1,0 +1,19 @@
+<html>
+<head>
+<script language="javascript">
+function change(col)
+{
+switch(col)
+{
+case 'red':document.bgColor=col; break;
+case 'yellow':document.bgColor=col; break;
+case 'blue':document.bgColor=col; break;
+}
+}
+</script>
+</head>
+<body>
+<form>
+<h1 align="center"><input type="radio" name="c" onClick="change('red')">RED<input type="radio" name="c" onClick="change('yellow')">Yellow<input type="radio" name="c" onClick="change('blue')">Blue</h1>
+</body>
+</html>
